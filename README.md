@@ -21,9 +21,14 @@ pip install -r requirements.txt
 ## Downloading checkpoint
 for AudioMAE checkpoint you can download it from 
 [pretrain](https://drive.google.com/file/d/1ni_DV4dRf7GxM8k-Eirx71WP9Gg89wwu/view?usp=share_link)
+
 You will need to change the path in audio_encoder/AudioMAE.py
 IP-adapter checkpoint you can download it from
 [IP-adpater](https://drive.google.com/drive/u/0/folders/1TPbiVx4ijjd2tdbLNmwPgpR8UUoRizmj)
+```
+gdown https://drive.google.com/uc?id=1ni_DV4dRf7GxM8k-Eirx71WP9Gg89wwu
+gdown https://drive.google.com/uc?id=1rA1zgCdioOpUpds-CdxL8uOKTx1-cAcH
+```
 You will need to change the path in inference.py
 
 
